@@ -32,7 +32,6 @@ namespace T5
 
         public override void AddNew()
         {
-            base.AddNew();
         }
 
         public override void Update()
