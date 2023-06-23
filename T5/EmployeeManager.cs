@@ -12,7 +12,7 @@ namespace T5
 			this.employees = new Employee[]{
 				new Employee("E001", "hoangnm", "hoangnm@gmail.com",0),
                 new Employee("E002", "namph", "namph@gmail.com",0),
-                new Employee("E003", "minhnv", "minhnv@gmail.com",1),
+                new Employee("E003", "minhnv", "minhnv@gmail.com",0),
             };
         }
 
