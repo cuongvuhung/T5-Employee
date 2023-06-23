@@ -53,6 +53,10 @@ namespace T5
 		{
             Console.WriteLine("Find");
         }
+		public virtual void Show() 
+		{
+            Console.WriteLine("Show");
+        }
 	}
 }
 

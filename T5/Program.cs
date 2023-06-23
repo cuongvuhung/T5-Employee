@@ -15,9 +15,11 @@ class Program
             Console.WriteLine("2. Add New Employee");
             Console.WriteLine("3. Update Employee");
             Console.WriteLine("4. Delete Employee");
-            Console.WriteLine("5. Exit");
-            Console.Write("   Select (1-5): ");
+            Console.WriteLine("5. Show all Employee");
+            Console.WriteLine("6. Exit");
+            Console.Write("   Select (1-6): ");
             selected = Convert.ToInt16(Console.ReadLine());
+            
 
             switch (selected)
             {
@@ -34,14 +36,16 @@ class Program
                     manager.Delete();
                     break;
                 case 5:
+                    manager.Show();
+                    break;
+                case 6:
                     Console.WriteLine("-------- END ---------");
                     break;
                 default:
                     Console.WriteLine("Invalid");
                     break;
             }
-        } while (selected != 5);
-        
+        } while (selected != 6);
         Console.ReadLine();
     }
 }
